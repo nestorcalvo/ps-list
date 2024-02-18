@@ -1,13 +1,12 @@
 {
-	"name": "ps-list",
+	"name": "@nestorcalvo/ps-list",
 	"version": "6.3.0",
 	"description": "Get running processes",
 	"license": "MIT",
-	"repository": "sindresorhus/ps-list",
+	"repository": "nestorcalvo/ps-list",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"name": "Nestor Calvo",
+		"email": "nestor.calvo@udea.edu.co"
 	},
 	"engines": {
 		"node": ">=8"
