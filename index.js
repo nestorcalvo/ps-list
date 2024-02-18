@@ -8,10 +8,7 @@ const execFile = util.promisify(childProcess.execFile);
 
 const windows = async (options = {}) => {
 	// Source: https://github.com/MarkTiedemann/fastlist
-	const bin =
-		options.path !== undefined
-			? options.path
-			: path.join(__dirname, "fastlist.exe");
+	const bin = options.path ?? path.join(__dirname, "fastlist.exe");
 	const { stdout } = await execFile(bin, { maxBuffer: TEN_MEGABYTES });
 
 	return stdout

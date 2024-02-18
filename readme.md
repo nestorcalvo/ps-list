@@ -47,7 +47,7 @@ On Windows this has no effect and will always be the users' own processes.
 ##### path
 
 Type: `string`<br>
-Default: ``
+Default: `undefined`
 
 Path for the fastlist.exe (Windows).
 
