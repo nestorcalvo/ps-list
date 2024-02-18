@@ -4,6 +4,8 @@
 
 Works on macOS, Linux, and Windows.
 
+Main difference from [sindresorhus/ps-list](https://www.npmjs.com/package/ps-list/v/6.3.0) is that on Windows, we are able to add a path for the fastlist.exe. If the path is missing, the package works as the original one from verision v6.3.0.
+
 ## Install
 
 ```
