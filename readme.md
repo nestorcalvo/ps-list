@@ -4,18 +4,16 @@
 
 Works on macOS, Linux, and Windows.
 
-
 ## Install
 
 ```
 $ npm install ps-list
 ```
 
-
 ## Usage
 
 ```js
-const psList = require('ps-list');
+const psList = require("ps-list");
 
 (async () => {
 	console.log(await psList());
@@ -24,7 +22,6 @@ const psList = require('ps-list');
 ```
 
 > The `cmd`, `cpu`, `memory`, and `uid` properties are not supported on Windows.
-
 
 ## API
 
@@ -45,6 +42,14 @@ Include other users' processes as well as your own.
 
 On Windows this has no effect and will always be the users' own processes.
 
+##### path
+
+Type: `string`<br>
+Default: ``
+
+Path for the fastlist.exe (Windows).
+
+If path is not set, it works as the original package [sindresorhus/ps-list](https://github.com/sindresorhus/ps-list).
 
 ## License
 
